@@ -1,0 +1,6 @@
+{
+  "pagerduty-mcp": {
+    "type": "streamable-http",
+    "url": "https://mcp.pagerduty.com/mcp"
+  }
+}
