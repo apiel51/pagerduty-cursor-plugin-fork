@@ -1,0 +1,13 @@
+{
+  "name": "pagerduty",
+  "version": "1.0.0",
+  "description": "PagerDuty MCP server for Cursor - manage incidents, services, schedules, on-call, and more directly from your IDE",
+  "author": {
+    "name": "PagerDuty",
+    "email": "dev-platform@pagerduty.com",
+    "url": "https://www.pagerduty.com"
+  },
+  "keywords": ["pagerduty", "incidents", "oncall", "mcp", "incident-management", "observability"],
+  "logo": "logo.svg",
+  "primaryColor": "#06AC38"
+}
