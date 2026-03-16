@@ -49,21 +49,7 @@ Before continuing, take the following steps:
 
 ### Example code block to show the user
 
-When prompting the user to configure the token, include this exact current config:
-
-```json
-{
-  "pagerduty-mcp": {
-    "headers": {
-      "Authorization": "Token ${PAGERDUTY_API_TOKEN}"
-    },
-    "type": "streamable-http",
-    "url": "https://mcp.pagerduty.com/mcp"
-  }
-}
-```
-
-When possible, also include a short code reference to the relevant header lines, for example:
+When prompting the user to configure the token, include a reference to the header section like so:
 
 ```3:5:mcp.json
     "headers": {
